@@ -1,3 +1,3 @@
-# flying-calligrapher.github.io
-Website for the flying calligrapher paper:
-https://xiaofeng-guo.github.io/flying-calligrapher/
+# flying_hand.github.io
+
+Website for the flying hand paper:
