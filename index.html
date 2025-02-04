@@ -2,9 +2,9 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <meta name="description" content="Flying Calligrapher: Contact-Aware Motion and Force Planning and Control for Aerial Manipulation">
+  <meta name="description" content="Flying Hand">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Flying Calligrapher: Contact-Aware Motion and Force Planning and Control for Aerial Manipulation</title>
+  <title>Flying Hand: End-Effector-Centric Framework for Versatile Aerial Manipulation Teleoperation and Policy Learning</title>
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
@@ -19,14 +19,14 @@
   <script src="./static/js/bulma-carousel.min.js"></script>
   <script src="./static/js/bulma-slider.min.js"></script>
   <script src="./static/js/index.js"></script>
-  <meta property="og:site_name" content="Flying Calligrapher: Contact-Aware Motion and Force Planning and Control for Aerial Manipulation" />
-  <meta property="og:title" content="Flying Calligrapher: Contact-Aware Motion and Force Planning and Control for Aerial Manipulation" />
+  <meta property="og:site_name" content="Flying Hand" />
+  <meta property="og:title" content="Flying Hand" />
   <meta property="og:image:width" content="1280" />
   <meta property="og:image:height" content="720" />
 
   <meta property="article:publisher" content="" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Flying Calligrapher: Contact-Aware Motion and Force Planning and Control for Aerial Manipulation" />
+  <meta name="twitter:title" content="Flying Hand" />
 </head>
 
 
@@ -38,18 +38,20 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title"> Flying Calligrapher: Contact-Aware Motion and Force Planning and Control for Aerial Manipulation </h1>
+            <h1 class="title is-1 publication-title">Flying Hand: End-Effector-Centric Framework for Versatile Aerial Manipulation Teleoperation and Policy Learning </h1>
             <div class="is-size-4 publication-authors">
               <span class="author-block">
-                <a href="https://xiaofeng-guo.github.io/">Xiaofeng Guo</a><sup>*1</sup>&nbsp;&nbsp;
-                <a href="https://guanqihe.github.io/">Guanqi He</a><sup>*1</sup>&nbsp;&nbsp;
-                <a href="https://theairlab.org/team/jiahe/">Jiahe Xu</a><sup>1</sup>&nbsp;&nbsp;
-                <a href="https://www.cs.cmu.edu/~mmousaei/">Mohammadreza Mousaei</a><sup>1</sup>&nbsp;&nbsp;
+                <a href="https://xiaofeng-guo.github.io/">Guanqi He</a><sup>*1</sup>&nbsp;&nbsp;
+                <a href="https://guanqihe.github.io/">Xiaofeng Guo</a><sup>*1</sup>&nbsp;&nbsp;
+                <a href="https://guanqihe.github.io/">Luyi Tang</a><sup>1</sup>&nbsp;&nbsp;
+				<a href="https://guanqihe.github.io/">Yuhang Zhang</a><sup>1</sup>&nbsp;&nbsp;
+				<a href="https://www.cs.cmu.edu/~mmousaei/">Mohammadreza Mousaei</a><sup>1</sup>&nbsp;&nbsp;
+				<a href="https://theairlab.org/team/jiahe/">Jiahe Xu</a><sup>1</sup>&nbsp;&nbsp;
                 <a href="https://ari-psu.github.io/">Junyi Geng</a><sup>2</sup>&nbsp;&nbsp;
                 <a href="https://theairlab.org/">Sebastian Scherer</a><sup>1</sup>&nbsp;&nbsp;
                 <a href="https://www.gshi.me/">Guanya Shi</a><sup>1</sup>&nbsp;&nbsp;
                 <div class="is-size-5 publication-authors">
-                  <span class="author-block"><sup>*</sup>Equal Contribution,</span>
+                  <span class="author-block"><sup>*</sup>Equal Contribution, Alphabet Order</span>
                   <span class="author-block"><sup>1</sup>Carnegie Mellon University,</span>
                   <span class="author-block"><sup>2</sup>Pennsylvania State University</span>
                 </div>
@@ -63,7 +65,7 @@
               <div class="publication-links">
                 <!-- PDF Link. -->
                 <span class="link-block">
-                  <a href="./static/pdf/fly_calligraphy.pdf"
+                  <a href="./static/pdf/flying_hand.pdf"
                      class="external-link button is-normal is-rounded is-dark" target="_blank">
                     <span class="icon">
                         <i class="fas fa-file-pdf"></i>
@@ -72,7 +74,7 @@
                   </a>
                 </span>
                 <!-- arXiv Link. -->
-                <span class="link-block">
+               <!-- <span class="link-block">
                   <a href="https://arxiv.org/abs/2407.05587"
                      class="external-link button is-normal is-rounded is-dark" target="_blank">
                     <span class="icon">
@@ -80,9 +82,9 @@
                     </span>
                     <span>arXiv</span>
                   </a>
-                </span>
+                </span> -->
                 <!-- Video Link. -->
-                <span class="link-block">
+              <!--  <span class="link-block">
                   <a href="https://youtu.be/g5egNbtQCwA"
                      class="external-link button is-normal is-rounded is-dark" target="_blank">
                     <span class="icon">
@@ -99,7 +101,7 @@
                     </span>
                     <span>Supplementary</span>
                   </a>
-                </span>
+                </span> -->
               </div>
             </div>
           </div>
@@ -108,28 +110,6 @@
     </div>
   </section>
 
-  <section class="section">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered">
-      <div class="column is-12">
-        <div class="columns is-centered">
-          <div class="column is-12">
-            <h2 class="title is-3 has-text-centered">Teaser Video</h2>
-          </div>
-        </div>
-        <div class="columns is-centered">
-          <div class="column is-12">
-            <video controls autoplay loop muted playsinline 
-              src="./static/videos/teaser.mp4" poster="./resources/loading-icon.gif" 
-              style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"
-              type="video/mp4">
-            </video>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  </section>
 
   <section class="section">
     <div class="container is-max-desktop">
@@ -138,23 +118,22 @@
         <div class="column is-12">
           <h2 class="title is-3">Abstract</h2>
           <div class="content has-text-justified">
-            <p>
-            Aerial manipulation has gained interest for completing high-altitude tasks that are challenging for human workers, such 
-            as contact inspection and defect detection. Previous research has focused on maintaining static contact points or forces. 
-            This letter addresses a more general and dynamic task: simultaneously tracking time-varying contact force and motion 
-            trajectories on tangential surfaces. We propose a pipeline that includes contact-aware trajectory planning to generate 
-            dynamic, feasible trajectories and a hybrid motion-force controller to compensate for contact and friction forces. We 
-            demonstrate the approach on an aerial calligraphy task using a novel sponge pen design as the end-effector.  
-            Additionally, we developed a touchscreen interface for flexible user input. Experiments show our method can effectively 
-            draw diverse letters, achieving an IoU of 0.59 and an end-effector position tracking RMSE of 2.93 cm.Aerial manipulation 
-            has gained interest for completing high-altitude tasks that are challenging for human workers, such as contact inspection 
-            and defect detection. Previous research has focused on maintaining static contact points or forces. This letter addresses 
-            a more general and dynamic task: simultaneously tracking time-varying contact force and motion trajectories on tangential 
-            surfaces. We propose a pipeline that includes contact-aware trajectory planning to generate dynamic, feasible trajectories 
-            and a hybrid motion-force controller to compensate for contact and friction forces. We demonstrate the approach on an aerial 
-            calligraphy task using a novel sponge pen design as the end-effector.  Additionally, we developed a touchscreen interface 
-            for flexible user input. Experiments show our method can effectively draw diverse letters, achieving an IoU of 0.59 and an 
-            end-effector position tracking RMSE of 2.93 cm.
+            <p> Aerial manipulation has recently attracted increasing interest from both industry and academia.
+              Previous approaches have demonstrated success in various specific tasks.
+              However, their hardware design and control frameworks are often tightly coupled with task specifications, 
+              limiting the de velopment of cross-task and cross-platform algorithms. 
+              Inspired by the success of robot learning in tabletop manipulation, 
+              we propose a unified aerial manipulation framework with an end-effector-centric interface that decouples 
+              high-level platform agnostic decision-making from task-agnostic low-level control. 
+              Our framework consists of a fully-actuated hexarotor with a 4-DoF robotic arm, 
+              a whole-body model predictive controller, and an end-effector-centric interface to receive commands from the high-level policy. 
+              The high-precision end-effector controller enables efficient and intuitive aerial teleoperation for versatile tasks 
+              and facilitates the development of imitation learning policies.
+              Real-world experiments show that the proposed framework significantly improves end-effector tracking accuracy, 
+              and can handle multiple aerial teleoperation and imitation learning tasks, 
+              including writing, peg-in-hole, pick and place, changing light bulbs, etc.
+              We believe the proposed framework provides one way to standardize and unify aerial manipulation into 
+              the general manipulation community and to advance the field.
             </p>
           </div>
         </div>
@@ -177,7 +156,7 @@
   <!-- insert one image -->
     <div class="container is-max-desktop">
       <div class="hero-body">
-        <img src="./static/images/pipeline.png" alt="teaser" style="width:100%">
+        <img src="./static/images/pipeline.png" alt="pipeline" style="width:100%;">
         <h2 class="subtitle has-text-centered">
           pipeline
         </h2>
@@ -199,246 +178,45 @@
           <!-- add text at the top left of these three videos -->
         <div class="title is-4">
           <p>
-            Single Letter Drawing
+            Control Performance
           </p>  
         </div>
-        <div class="title is-6">
-          <p>write letter 'A'</p>        
-        </div>
         <div class="columns is-centered">
-          <div class="column is-4">
+          <div class="column is-12">
             <video controls autoplay loop muted playsinline 
-              src="./static/videos/write_a_20_1.mp4" poster="./resources/loading-icon.gif" 
+              src="./static/videos/endeffector_control_experiment.mp4" poster="./resources/loading-icon.gif" 
               style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"
               type="video/mp4">
             </video>
-            <div class="content has-text-centered">
-              <p>trial 1</p>        
-            </div>
-          </div>
-          <div class="column is-4">
-            <video controls autoplay loop muted playsinline 
-              src="./static/videos/write_a_21_1.mp4" poster="./resources/loading-icon.gif" 
-              style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;">
-            </video>
-            <div class="content has-text-centered">
-              <p>trial 2</p>        
-            </div>
-          </div>
-          <div class="column is-4">
-            <video controls autoplay loop muted playsinline 
-              src="./static/videos/write_a_22_1.mp4" poster="./resources/loading-icon.gif" 
-              style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;">
-            </video>
-            <div class="content has-text-centered">
-              <p>trial 3</p>        
-            </div>
           </div>
         </div>
-        <div class="title is-6">
-          <p>write letter 'I'</p>        
-        </div>
-        <div class="columns is-centered">
-          <div class="column is-4">
-            <video controls autoplay loop muted playsinline 
-              src="./static/videos/write_i_20_1.mp4" poster="./resources/loading-icon.gif" 
-              style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;">
-            </video>
-            <div class="content has-text-centered">
-              <p>trial 1</p>        
-            </div>
-          </div>
-          <div class="column is-4">
-            <video controls autoplay loop muted playsinline 
-              src="./static/videos/write_i_21_1.mp4" poster="./resources/loading-icon.gif" 
-              style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;">
-            </video>
-            <div class="content has-text-centered">
-              <p>trial 2</p>        
-            </div>
-          </div>
-          <div class="column is-4">
-            <video controls autoplay loop muted playsinline 
-              src="./static/videos/write_i_22_1.mp4" poster="./resources/loading-icon.gif" 
-              style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;">
-            </video>
-            <div class="content has-text-centered">
-              <p>trial 3</p>        
-            </div>
-          </div>
-        </div>
-        <div class="title is-6">
-          <p>write letter 'R'</p>        
-        </div>
-        <div class="columns is-centered">
-          <div class="column is-4">
-            <video controls autoplay loop muted playsinline 
-              src="./static/videos/write_r_20_1.mp4" poster="./resources/loading-icon.gif" 
-              style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;">
-            </video>
-            <div class="content has-text-centered">
-              <p>trial 1</p>        
-            </div>
-          </div>
-          <div class="column is-4">
-            <video controls autoplay loop muted playsinline 
-              src="./static/videos/write_r_21_1.mp4" poster="./resources/loading-icon.gif" 
-              style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;">
-            </video>
-            <div class="content has-text-centered">
-              <p>trial 2</p>        
-            </div>
-          </div>
-          <div class="column is-4">
-            <video controls autoplay loop muted playsinline 
-              src="./static/videos/write_r_22.mp4" poster="./resources/loading-icon.gif" 
-              style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;">
-            </video>
-            <div class="content has-text-centered">
-              <p>trial 3</p>        
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="container is-max-desktop">
-    <div class="columns is-centered">
-      <div class="column is-12">
         <div class="title is-4">
           <p>
-            Complex Letter Drawing
+            Autonomous Policy Learning
           </p>  
         </div>
         <div class="columns is-centered">
           <div class="column is-12">
             <video controls autoplay loop muted playsinline 
-              src="./static/videos/write_2024_10x.mp4" poster="./resources/loading-icon.gif" 
-              style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;">
+              src="./static/videos/autonomous_experiment.mp4" poster="./resources/loading-icon.gif" 
+              style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"
+              type="video/mp4">
             </video>
-            <div class="content has-text-centered">
-              <p>writing '2024'</p>        
-            </div>
           </div>
+        </div>
+        
+        <div class="title is-4">
+          <p>
+            Human Teleoperation
+          </p>  
         </div>
         <div class="columns is-centered">
           <div class="column is-12">
             <video controls autoplay loop muted playsinline 
-              src="./static/videos/zhixingheyi_10x.mp4" poster="./resources/loading-icon.gif" 
-              style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;">
+              src="./static/videos/teleopertion_experiment.mp4" poster="./resources/loading-icon.gif" 
+              style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"
+              type="video/mp4">
             </video>
-            <div class="content has-text-centered">
-              <p>writing a Chinese idiom "知行合一" (meaning: Unity of Knowledge and Action)
-              </p>        
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="container is-max-desktop">
-    <div class="columns is-centered">
-      <div class="column is-12">
-        <div class="title is-4">
-          <p>
-            Ablation Study
-          </p>  
-        </div>
-        <div class="title is-6">
-          <p>
-            Control Comparison  
-          </p>
-        </div>
-        <div class="columns is-centered">
-          <div class="column is-6">
-            <video controls autoplay loop muted playsinline 
-              src="./static/videos/write_r_control_baseline.mp4" poster="./resources/loading-icon.gif" 
-              style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;">
-            </video>
-            <div class="content has-text-centered">
-              <p>without contact-related ff</p>        
-            </div>
-          </div>
-          <div class="column is-6">
-            <video controls autoplay loop muted playsinline 
-              src="./static/videos/write_r_21_1.mp4" poster="./resources/loading-icon.gif" 
-              style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;">
-            </video>
-            <div class="content has-text-centered">
-              <p>our method
-              </p>        
-            </div>
-          </div>
-        </div>
-
-        <div class="title is-6">
-          <p>
-            Trajectory Planning Comparison
-          </p>
-        </div>
-        <div class="columns is-centered">
-          <div class="column is-6">
-            <video controls autoplay loop muted playsinline 
-              src="./static/videos/write_i_0_planning_baseline.mp4" poster="./resources/loading-icon.gif" 
-              style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;">
-            </video>
-            <div class="content has-text-centered">
-              <p>with equal distance sample trajecotry generation</p>        
-            </div>
-          </div>
-          <div class="column is-6">
-            <video controls autoplay loop muted playsinline 
-              src="./static/videos/write_i_21_1.mp4" poster="./resources/loading-icon.gif" 
-              style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;">
-            </video>
-            <div class="content has-text-centered">
-              <p>our method
-              </p>        
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container is-max-desktop">
-    <div class="columns is-centered">
-      <div class="column is-12">
-        <div class="title is-4">
-          <p>
-            Speed Comparison
-          </p>  
-        </div>
-        <div class="columns is-centered">
-          <div class="column is-4">
-            <video controls autoplay loop muted playsinline 
-              src="./static/videos/write_i_21_1.mp4" poster="./resources/loading-icon.gif" 
-              style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;">
-            </video>
-            <div class="content has-text-centered">
-              <p>vmax = 24.3 cm/s</p>        
-            </div>
-          </div>
-          <div class="column is-4">
-            <video controls autoplay loop muted playsinline 
-              src="./static/videos/write-i-15.mp4" poster="./resources/loading-icon.gif" 
-              style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;">
-            </video>
-            <div class="content has-text-centered">
-              <p>vmax = 33.1 cm/s
-              </p>        
-            </div>
-          </div>
-          <div class="column is-4">
-            <video controls autoplay loop muted playsinline 
-              src="./static/videos/write-i-17.mp4" poster="./resources/loading-icon.gif" 
-              style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;">
-            </video>
-            <div class="content has-text-centered">
-              <p>vmax = 40.2 cm/s
-              </p>        
-            </div>
           </div>
         </div>
       </div>
@@ -446,7 +224,8 @@
   </div>
 </section>
 
-<section class="section">
+
+<!-- <section class="section">
   <div class="container">
     <h2 class="title is-2" style="text-align: center;" id="press-coverage">Media</h2>
     <br>
@@ -457,9 +236,9 @@
         </a>
       </div>
   </div>
-</section>
+</section> -->
 
-<section class="section" id="BibTeX">
+<!-- <section class="section" id="BibTeX">
   <div class="container is-max-desktop">
   <div class="container content">
     <h2 class="titile">BibTeX</h2>
@@ -472,7 +251,7 @@
     </code></pre>
   </div>
   </div>
-</section>
+</section> -->
 
 </body>
 </html>
