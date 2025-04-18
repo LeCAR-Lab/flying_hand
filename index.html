@@ -125,7 +125,7 @@
       <!-- Abstract. -->
       <div class="columns is-centered has-text-centered">
         <div class="column is-12">
-          <h2 class="title is-3">Abstract</h2>
+          <h2 class="title is-2">Abstract</h2>
           <div class="content has-text-justified">
             <p> Aerial manipulation has recently attracted increasing interest from both industry and academia. 
               Previous approaches have demonstrated success in various specific tasks. 
@@ -156,7 +156,7 @@
       <div class="column is-12">
         <div class="columns is-centered">
           <div class="column is-12">
-            <h2 class="title is-3 has-text-centered">Method</h2>
+            <h2 class="title is-2 has-text-centered">Method</h2>
           </div>
         </div>
       </div>
@@ -180,11 +180,11 @@
       <div class="column is-12">
         <div class="columns is-centered">
           <div class="column is-12">
-            <h2 class="title is-3 has-text-centered">Experiment Results</h2>
+            <h2 class="title is-2 has-text-centered">Experiment Results</h2>
           </div>
         </div>
           <!-- add text at the top left of these three videos -->
-        <div class="title is-4">
+        <div class="title is-3">
           <p>
             Control Performance
           </p>  
@@ -198,7 +198,7 @@
             </video>
           </div>
         </div>
-        <div class="title is-4">
+        <div class="title is-3">
           <p>
             EE-Centric MPC
           </p>  
@@ -213,12 +213,12 @@
           </div>
         </div>
         
-        <div class="title is-4">
+        <div class="title is-3">
           <p>
             Autonomous Policy Learning
           </p>  
         </div>
-        <div class="columns is-centered">
+        <!-- <div class="columns is-centered">
           <div class="column is-12">
             <video controls autoplay loop muted playsinline 
               src="./static/videos/autonomous_experiment.mp4" poster="./resources/loading-icon.gif" 
@@ -226,14 +226,89 @@
               type="video/mp4">
             </video>
           </div>
-        </div>
+        </div> -->
         
-        <div class="title is-4">
+        <div class="columns is-centered">
+          <div class="column is-12">
+            <video controls autoplay loop muted playsinline 
+              src="./static/videos/peginhole_2.mp4" poster="./resources/loading-icon.gif" 
+              style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"
+              type="video/mp4">
+            </video>
+            <h2 class="subtitle has-text-centered">
+              Peg-in-Hole
+            </h2>
+          </div>
+        </div>
+      
+        <div class="columns is-centered">
+          <div class="column is-12">
+            <video controls autoplay loop muted playsinline 
+              src="./static/videos/valve_rotate_3.mp4" poster="./resources/loading-icon.gif" 
+              style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"
+              type="video/mp4">
+            </video>
+            <h2 class="subtitle has-text-centered">
+              Valve Rotation
+            </h2>
+          </div>
+        </div>
+
+
+
+        <div class="title is-3">
           <p>
             Human Teleoperation
           </p>  
         </div>
-        <div class="columns is-centered">
+        <!-- add two videos in one line, and also the caption below each video -->
+        <div>
+          <div class="columns is-centered">
+            <div class="column is-6">
+              <video controls autoplay loop muted playsinline 
+                src="./static/videos/bulb_unmount_2.mp4" poster="./resources/loading-icon.gif" 
+                style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"
+                type="video/mp4">
+              </video>
+              <h2 class="subtitle has-text-centered">
+                Light Bulb Unmounting
+              </h2>
+            </div>
+            <div class="column is-6">
+              <video controls autoplay loop muted playsinline 
+                src="./static/videos/bulb_mounting_2.mp4" poster="./resources/loading-icon.gif" 
+                style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"
+                type="video/mp4">
+              </video>
+              <h2 class="subtitle has-text-centered">
+                Light Bulb Mounting
+              </h2>
+            </div>
+          </div>
+          <div class="columns is-centered">
+            <div class="column is-6">
+              <video controls autoplay loop muted playsinline 
+                src="./static/videos/pickandplace_glue.mp4" poster="./resources/loading-icon.gif" 
+                style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"
+                type="video/mp4">
+              </video>
+              <h2 class="subtitle has-text-centered">
+                Pick and Place
+              </h2>
+            </div>
+            <div class="column is-6">
+              <video controls autoplay loop muted playsinline 
+                src="./static/videos/pickandplace_bluetape.mp4" poster="./resources/loading-icon.gif" 
+                style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"
+                type="video/mp4">
+              </video>
+              <h2 class="subtitle has-text-centered">
+                Pick and Place
+              </h2>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="columns is-centered">
           <div class="column is-12">
             <video controls autoplay loop muted playsinline 
               src="./static/videos/teleopertion_experiment.mp4" poster="./resources/loading-icon.gif" 
@@ -241,7 +316,7 @@
               type="video/mp4">
             </video>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
@@ -261,20 +336,20 @@
   </div>
 </section> -->
 
-<!-- <section class="section" id="BibTeX">
+<section class="section" id="BibTeX">
   <div class="container is-max-desktop">
   <div class="container content">
     <h2 class="titile">BibTeX</h2>
-    <pre><code>@article{guo2024flying,
-      title={Flying Calligrapher: Contact-Aware Motion and Force Planning and Control for Aerial Manipulation},
-      author={Guo, Xiaofeng and He, Guanqi and Xu, Jiahe and Mousaei, Mohammadreza and Geng, Junyi and Scherer, Sebastian and Shi, Guanya},
-      journal={arXiv preprint arXiv:2407.05587},
-      year={2024}
-      }
+    <pre><code>@article{he2025flying,
+      title={Flying Hand: End-Effector-Centric Framework for Versatile Aerial Manipulation Teleoperation and Policy Learning},
+      author={He, Guanqi and Guo, Xiaofeng and Tang, Luyi and Zhang, Yuanhang and Mousaei, Mohammadreza and Xu, Jiahe and Geng, Junyi and Scherer, Sebastian and Shi, Guanya},
+      journal={arXiv preprint arXiv:2504.10334},
+      year={2025}
+    }
     </code></pre>
   </div>
   </div>
-</section> -->
+</section>
 
 </body>
 </html>
